@@ -1,0 +1,35 @@
+{
+    "author": "cobxo3bot@gmail.com",
+    "dependencies": {
+        "yr.no-forecast": "^0.0.7"
+    },
+    "keywords": [],
+    "name": "yr-import-c",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable"
+        ],
+        "displayName": "yr-import-c",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "status",
+            "message"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "7234d1be-b793-4be1-bed9-3d8db64b28c8",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
